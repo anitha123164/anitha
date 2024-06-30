@@ -13,3 +13,6 @@ yum update
  yum install -y nginx
 sudo systemctl start nginx
 sudo systemctl enable nginx
+
+ cd /usr/share/nginx/html
+
