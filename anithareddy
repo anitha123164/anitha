@@ -1,0 +1,15 @@
+
+                    UBUNTU STEPS
+        
+sudo apt update
+sudo apt install nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status nginx
+                   
+
+               amazon linux
+yum update
+ yum install -y nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
