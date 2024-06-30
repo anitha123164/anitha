@@ -15,4 +15,5 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
  cd /usr/share/nginx/html
-
+after we edit we in html file we have to use this command
+systemctl restart nginx 
