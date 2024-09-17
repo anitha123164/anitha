@@ -1,0 +1,20 @@
+💎 kubectl get: List resources in a cluster.
+🔯 kubectl get pods /services /deployments
+💎 kubectl describe: Show detailed information about a resource.
+🔯 kubectl describe pod <pod-name> /service <service-name>/ deployment <deployment-name>
+💎 kubectl logs: Fetch logs from a pod.
+🔯 kubectl logs <pod-name> /kubectl logs <pod-name> -c <container-name>  # For multi-container pods
+💎 kubectl exec: Execute a command in a container.
+🔯 kubectl exec -it <pod-name> -- /bin/bash
+💎 kubectl apply: Apply a configuration to a resource by filename or stdin.
+🔯 kubectl apply -f <file.yaml>
+💎 kubectl delete: Delete resources by filenames, stdin, resources, and names.
+🔯 kubectl delete pod <pod-name>/kubectl delete -f <file.yaml>
+💎 kubectl scale: Scale the number of replicas of a deployment.
+🔯 kubectl scale deployment <deployment-name> --replicas=<number>
+💎 kubectl rollout: Manage the rollout of a deployment.
+🔯 kubectl rollout history deployment <deployment-name>
+💎 kubectl port-forward: Forward one or more local ports to a pod.
+🔯 kubectl port-forward <pod-name> <local-port>:<pod-port>
+💎 kubectl config: Modify kubeconfig files.
+🔯 kubectl config get-contexts /use-context / set-context
